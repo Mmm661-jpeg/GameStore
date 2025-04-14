@@ -4,10 +4,8 @@ using Azure.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 
-builder.Configuration.AddAzureKeyVault(
-    new Uri(builder.Configuration["KeyVaultUri"]),
-    new DefaultAzureCredential());
 
 // Lägg till tjänster för MVC och GameService
 builder.Services.AddControllersWithViews();

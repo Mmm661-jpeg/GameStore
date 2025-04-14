@@ -1,5 +1,4 @@
-using Azure.Identity;
-using Azure.Security.KeyVault.Secrets;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace GameStore.Controllers;
@@ -16,13 +15,9 @@ public class KeyController : ControllerBase
     }
 
     [HttpGet("apikey")]
-    public async Task<IActionResult> GetApiKey()
+    public IActionResult GetApiKey()
     {
         var kvUri = _config["KeyVaultUri"] ?? "Not found..";
-
-        var client = new SecretClient(new Uri(kvUri), new DefaultAzureCredential());
-        KeyVaultSecret secret = await client.GetSecretAsync("TheApiKey");
-
-        return Ok(secret.Value);
+        return Ok(kvUri);
     }
 }
