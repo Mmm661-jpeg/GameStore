@@ -96,6 +96,12 @@ Then you go too Access control (IAM) and give your account the Key Vault Adminis
 
 Secrets -> Generate/Import -> Add a name and a value.
 
+You should then with a few nugget packages ("Azure.Extensions.AspNetCore.Configuration.Secrets" 
+, "Azure.Identity", "Azure.Security.KeyVault.Secrets") be able to get your key vault key using the url azure provides you for the key vault. I had some issues with authorization so decided to mock this part for now.
+
+
+## CI/CD-Pipeline with Azure DevOps
+
 
 
 
