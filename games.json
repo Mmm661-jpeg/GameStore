@@ -6,7 +6,7 @@
     "Description": "Ett episkt action-äventyr där du spelar som Link och måste stoppa den onda Ganondorf från att ta över Hyrule.",
     "ReleaseYear": 1998,
     "Genre": "Action-äventyr",
-    "Cover": "https://images.nintendolife.com/82f557404ec71/legend-of-zelda-ocarina-of-time-cover.cover_large.jpg"
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/legend-of-zelda-ocarina-of-time-cover.webp?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D"
   },
   {
     "Id": "2",
@@ -15,7 +15,7 @@
     "Description": "Mario ger sig ut på ett tredimensionellt plattformsäventyr för att rädda prinsessan Peach från Bowser.",
     "ReleaseYear": 1996,
     "Genre": "Plattform",
-    "Cover": "https://images.nintendolife.com/f3c8baaa710cd/super-mario-64-cover.cover_large.jpg"
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/super-mario-64-cover.webp?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D"
   },
   {
     "Id": "3",
@@ -24,7 +24,7 @@
     "Description": "En förstapersonsskjutare där du spelar som James Bond och kämpar mot fiender för att stoppa en global katastrof.",
     "ReleaseYear": 1997,
     "Genre": "FPS",
-    "Cover": "https://images.nintendolife.com/0becf36f5e461/goldeneye-007-cover.cover_large.jpg"
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/goldeneye-007-cover.webp?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D"
   },
   {
     "Id": "4",
@@ -33,7 +33,7 @@
     "Description": "Ett charmigt plattformsäventyr där björnen Banjo och fågeln Kazooie måste rädda Banjos syster från häxan Gruntilda.",
     "ReleaseYear": 1998,
     "Genre": "Plattform",
-    "Cover": "https://images.nintendolife.com/a5444f864a550/banjo-kazooie-cover.cover_large.jpg"
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/banjo-kazooie-cover.webp?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D"
   },
   {
     "Id": "5",
@@ -42,7 +42,7 @@
     "Description": "Ett klassiskt racingspel där du tävlar mot vänner eller datorstyrda motståndare på ikoniska Mario-banor.",
     "ReleaseYear": 1996,
     "Genre": "Racing",
-    "Cover": "https://images.nintendolife.com/5830510298ea5/mario-kart-64-cover.cover_large.jpg"
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/mario-kart-64-cover.webpg?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D"
   },
   {
     "Id": "6",
@@ -51,13 +51,13 @@
     "Description": "Donkey Kong och hans vänner måste rädda deras ö från den onda King K. Rool i detta storskaliga 3D-plattformsäventyr.",
     "ReleaseYear": 1999,
     "Genre": "Plattform",
-    "Cover": "https://images.nintendolife.com/b909aa55cd9fa/donkey-kong-64-cover.cover_large.jpg"
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/donkey-kong-64-cover.webp?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D"
   },
   {
     "Id": "7",
     "Name": "Super Smash Bros.",
     "Price": 359,
-    "Cover": "https://images.nintendolife.com/f1e39e20e92de/super-smash-bros-cover.cover_large.jpg",
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/super-smash-bros-cover.webp?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D",
     "Description": "Ett fightingspel där du kan spela som ikoniska Nintendo-karaktärer och slåss i olika arenor.",
     "ReleaseYear": 1999,
     "Genre": "Fighting"
@@ -66,7 +66,7 @@
     "Id": "8",
     "Name": "Perfect Dark",
     "Price": 369,
-    "Cover": "https://images.nintendolife.com/15ba35b4bb6a4/perfect-dark-cover.cover_large.jpg",
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/perfect-dark-cover.cover_large.jpg?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D",
     "Description": "En futuristisk förstapersonsskjutare där agenten Joanna Dark bekämpar korruption och utomjordiska hot.",
     "ReleaseYear": 2000,
     "Genre": "FPS"
@@ -75,7 +75,7 @@
     "Id": "9",
     "Name": "Pokemon Stadium",
     "Price": 449,
-    "Cover": "https://images.nintendolife.com/819928bb78614/pokemon-stadium-cover.cover_large.jpg",
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/pokemon-stadium-cover.cover_large.jpg?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D",
     "Description": "Ett strategiskt turbaserat fightingspel där du kan tävla med dina Pokémon i episka 3D-strider.",
     "ReleaseYear": 1999,
     "Genre": "Strategi/Fighting"
@@ -84,7 +84,7 @@
     "Id": "10",
     "Name": "The Legend of Zelda: Majora's Mask",
     "Price": 499,
-    "Cover": "https://images.nintendolife.com/6c2a75a4be6a2/legend-of-zelda-majoras-mask-cover.cover_large.jpg",
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/legend-of-zelda-majoras-mask-cover.webp?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D",
     "Description": "En mörk och mystisk uppföljare till Ocarina of Time där Link måste rädda en värld som går under om tre dagar.",
     "ReleaseYear": 2000,
     "Genre": "Action-äventyr"
@@ -93,7 +93,7 @@
     "Id": "11",
     "Name": "Wave Race 64",
     "Price": 329,
-    "Cover": "https://images.nintendolife.com/060163558b4c5/wave-race-64-cover.cover_large.jpg",
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/wave-race-64-cover.webp?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D",
     "Description": "Ett vattenskoter-racingspel med realistisk fysik och spännande banor.",
     "ReleaseYear": 1996,
     "Genre": "Racing"
@@ -102,7 +102,7 @@
     "Id": "12",
     "Name": "Star Fox 64",
     "Price": 389,
-    "Cover": "https://images.nintendolife.com/00fe246e64f5e/star-fox-64-cover.cover_large.jpg",
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/star-fox-64-cover.webp?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D",
     "Description": "Ett rymdskjutspel där du styr Fox McCloud och hans team genom actionfyllda uppdrag.",
     "ReleaseYear": 1997,
     "Genre": "Shoot 'em up"
@@ -111,7 +111,7 @@
     "Id": "13",
     "Name": "Star Wars Episode I: Racer",
     "Price": 349,
-    "Cover": "https://images.nintendolife.com/a8bf5c53203d5/star-wars-episode-i-racer-cover.cover_large.jpg",
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/star-wars-episode-i-racer-cover.webp?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D",
     "Description": "Ett futuristiskt racingspel med höga hastigheter och adrenalinfylld action.",
     "ReleaseYear": 1998,
     "Genre": "Racing"
@@ -120,7 +120,7 @@
     "Id": "14",
     "Name": "Yoshi's Story",
     "Price": 299,
-    "Cover": "https://images.nintendolife.com/4b5ee2ec1d641/yoshis-story-cover.cover_large.jpg",
+    "Cover": "https://gamestoreimages1.blob.core.windows.net/gamestoreimgcon/yoshis-story-cover.webp?sp=r&st=2025-04-14T15:05:10Z&se=2025-05-14T23:05:10Z&spr=https&sv=2024-11-04&sr=c&sig=UDjEP4KDHl0w2hYeQltaoWqlyfa%2B31CMM7nzvlBCLO0%3D",
     "Description": "Ett charmigt plattformsspel där Yoshi måste rädda sitt rike genom att samla Happy Fruits.",
     "ReleaseYear": 1997,
     "Genre": "Plattform"
