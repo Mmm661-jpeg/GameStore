@@ -81,7 +81,7 @@ Settings -> shared access tokens -> configure and generate
 
 now you can use this token at the end of your requests and this allows you to access your blobs (read,write,delete etc..)
 
-### Key vaults
+## Key vaults
 
 1. Find Key Vaults
 2. Create
@@ -100,7 +100,58 @@ You should then with a few nugget packages ("Azure.Extensions.AspNetCore.Configu
 , "Azure.Identity", "Azure.Security.KeyVault.Secrets") be able to get your key vault key using the url azure provides you for the key vault. I had some issues with authorization so decided to mock this part for now.
 
 
-## CI/CD-Pipeline with Azure DevOps
+
+## Setting Up Azure DevOps CI/CD with GitHub
+
+1. Set Up Azure DevOps
+- Sign in or create an account at [https://dev.azure.com](https://dev.azure.com).
+- Create a new **Project**:
+  - Enter a project name.
+  - Optionally, add a description.
+  - Choose project visibility Public.
+
+---
+
+
+2. Connect Your GitHub Repository
+- Navigate to the **Repos** section in your Azure DevOps project.
+- There are multiple ways to import your code, but the easiest:
+  1. Clone your existing GitHub repository:
+     ```bash
+     git clone <your-github-repo-url>
+     ```
+  2. Push the cloned repo to your Azure DevOps project if needed.
+
+---
+
+ 3. Set Up the Pipeline
+- Go to **Pipelines > Create Pipeline**.
+- Choose **GitHub** as your source.
+- Sign in and connect your GitHub account.
+- Select the desired repository.
+- Azure DevOps will auto-generate a `azure-pipelines.yml` file based on your project.
+- Review the YAML, then click **Run**.
+
+---
+
+### ⚠️ Common Issue
+
+*[error] No hosted parallelism has been purchased or granted. To request a free parallelism grant, please fill out the following form: https://aka.ms/azpipelines-parallelism-request*
+
+this means your organization doesn't have parallelism enabled yet.
+you can request free parallelism via [this form](https://aka.ms/azpipelines-parallelism-request).
+
+#### Notes
+
+- **Trigger Differences**:
+  - In **GitHub Actions**, the trigger (`on:`) must be explicitly defined in the `.yml` file to enable automatic or manual runs.
+  - In **Azure Pipelines**, you can trigger builds manually even if no `trigger:` is defined in the YAML — the UI allows manual runs by default.
+
+---
+
+
+
+
 
 
 
