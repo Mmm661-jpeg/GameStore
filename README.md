@@ -116,9 +116,11 @@ You should then with a few nugget packages ("Azure.Extensions.AspNetCore.Configu
 2. Connect Your GitHub Repository
 - Navigate to the **Repos** section in your Azure DevOps project.
 - There are multiple ways to import your code, but the easiest:
-  1. Clone your existing GitHub repository:
+  1. Clone your existing GitHub repository (Can be done manually with Azures UI):
      ```bash
      git clone <your-github-repo-url>
+     git remote add azure <your-azure-repo-url>
+     git push azure main
      ```
   2. Push the cloned repo to your Azure DevOps project if needed.
 
