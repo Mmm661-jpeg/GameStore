@@ -42,3 +42,46 @@ Azure assigns a default domain (`yourapp.azurewebsites.net`).
 This domain is automatically secured with a **free SSL certificate**, which enforces **HTTPS** for secure, encrypted communication.
 
 
+## Auto scaling
+
+Only avaliable to higher tiers. Requires Premium v2 or Premium v3
+
+App service -> Settings -> Scale out -> Automatic
+
+This is a feature used to automaticly scale your app based on demand.
+
+## Storage account
+
+1. Find and add a new storage account 
+2. Connect to your resource group and name the storage account
+3. Pick a region  
+4. Choose Azure Blob storage as primary service 
+5. Standard performance
+6. LRS: Locally-redundant storage
+7. In advanced settings choose cool for the acces tier as well be accesing data infrequently
+8. read and review
+
+*The steps not mentioned just choose the defualt settigns given as the suffice*
+
+### Uploading and using files
+
+To upload and use files for your storage you will need to configure a **container**.
+
+1. Data storage -> Containers
+2. New container (+) and then give it a name
+3. Now that you have a container you can upload files and use your files.
+
+Before that its best to either configure a SAS (Shared Access Signature) or allow anonymous access to container.
+
+To allow anonymous access go to storage account -> Settings -> configuration -> Allow Blob anonymous access (Enable) -> Back to container -> Change access level -> Blob or container.
+
+**SAS:**
+
+Settings -> shared access tokens -> configure and generate
+
+now you can use this token at the end of your requests and this allows you to access your blobs (read,write,delete etc..)
+
+
+
+
+
