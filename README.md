@@ -81,6 +81,23 @@ Settings -> shared access tokens -> configure and generate
 
 now you can use this token at the end of your requests and this allows you to access your blobs (read,write,delete etc..)
 
+### Key vaults
+
+1. Find Key Vaults
+2. Create
+3. Unique name
+4. Region (same as resource)
+5. Standard
+6. Azure role-based access control
+7. Public endpoint 
+8. Review and create
+
+Then you go too Access control (IAM) and give your account the Key Vault Administrator role
+
+Secrets -> Generate/Import -> Add a name and a value.
+
+
+
 
 
 
